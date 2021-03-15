@@ -17,7 +17,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'DIP - General Documentation'
+project = 'DIP Docs'
 copyright = '2021, Tabilab'
 author = 'Tabilab'
 
@@ -27,7 +27,13 @@ author = 'Tabilab'
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = ['myst_parser']
+extensions = []
+
+
+
+
+
+
 
 
 # Add any paths that contain templates here, relative to this directory.

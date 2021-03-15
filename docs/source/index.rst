@@ -1,20 +1,14 @@
-.. DIP - General Documentation documentation master file, created by
-   sphinx-quickstart on Mon Mar 15 16:35:11 2021.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+DIP General Documentation Page
+==============================
 
-Welcome to DIP - General Documentation's documentation!
-=======================================================
+This documentation contains various tutorials for both the site admins and program developers for DIP. 
+
+- If you are a program developer you probably want to explore :ref:`Developer Guide <dev-guide>`.
+- If you are the admin check :ref:`Admin Guide <admin-guide>`.
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
 
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+   admin_guide
+   dev_guide
+ 
