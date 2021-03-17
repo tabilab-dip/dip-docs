@@ -8,3 +8,4 @@ Developer Guide
 
    form_schema_tutorial
    output_tutorial
+   project_structure_tutorial
