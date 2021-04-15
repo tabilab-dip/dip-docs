@@ -37,6 +37,6 @@ This one is a simpler one, here we provide you a template and you just fill that
         
     }
 
-* You can use \n, \t, \" etc. characters to format the output. 
+* You can use \\n, \\t, \\" etc. characters to format the output. 
 * It needs to be in json format.
 * One example is at `here <https://github.com/tabilab-dip/morphological_parser_sak/blob/main/dip_specs/author_specs.json>`_

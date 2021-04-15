@@ -23,7 +23,7 @@ The output is assumed to be in the following format:
         "brat_conll": "If we use annotated output but developer returns conll format"
     }
 
-* Regardless of you use annotated output, you can give textual output together with it by providing value to the text field. You can use \t, \n characters for nicely indented outputs. For now we don't have html outputs.
+* Regardless of you use annotated output, you can give textual output together with it by providing value to the text field. You can use \\t, \\n characters for nicely indented outputs. For now we don't have html outputs.
 * If you are using annotated output filling in only one of "brat_standoff" or "brat_conll" is enough.
 * Now I need to explain what are those:
     * **brat_conll**: This is the conll formatted string. If you provide this our system converts it into the standoff format.
