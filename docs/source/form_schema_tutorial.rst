@@ -58,8 +58,7 @@ For that we want to implement an endpoint that parses the above json string and 
 
     @app.route("/evaluate", methods=["POST"])
     def evaluate():
-        json_data = json.loads(request.data)["query"]
-        # query is used as a wrapper by the front-end by default
+        json_data = json.loads(request.data)
         # read the json fields
         # for your form fields:
         #    you need to consider possible empty / illegal values as well
@@ -67,7 +66,8 @@ For that we want to implement an endpoint that parses the above json string and 
         premise = json_data["textarea"]
         hypothesis = json_data["textarea_1"]
         language = json_data["dropdown"]
-
+        # to see the output type given by the algoritm 
+        #     check output_tutorial page
         result = nli.run_algorithm(algorithms, premise, 
                                     hypothesis, language)
         response = app.response_class(
