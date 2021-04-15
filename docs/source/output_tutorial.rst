@@ -59,4 +59,4 @@ You can use the file `conllXtostandoff.py <https://github.com/tabilab-dip/backen
 
 How can you get your own brat_standoff format
 ------------------------------------------------
-You can use the file `conllXtostandoff.py <https://github.com/tabilab-dip/backend-proxy/blob/main/backend_proxy/misc/conllXtostandoff.py>`_ to parse your outputs in your own way. For that, you better take a look at `brat embedding examples <http://brat.nlplab.org/embed.html>`_ and get a valid output for your case.
+You can use the file `conllXtostandoff.py <https://github.com/tabilab-dip/backend-proxy/blob/main/backend_proxy/misc/conllXtostandoff.py>`_ as a starter code to parse your outputs in your own way by changing this code a bit for your purposes. For that, you better take a look at `brat embedding examples <http://brat.nlplab.org/embed.html>`_ and get a valid output for your case. 
