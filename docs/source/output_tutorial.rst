@@ -18,8 +18,8 @@ The output is assumed to be in the following format:
     :linenos:
 
     {
-        "text": "Text output of the system"
-        "brat_standoff": "If you use annotated output (e.g. in dependency parsers etc.), and the developer decides to return in standoff format"
+        "text": "Text output of the system",
+        "brat_standoff": "If you use annotated output (e.g. in dependency parsers etc.), and the developer decides to return in standoff format",
         "brat_conll": "If we use annotated output but developer returns conll format"
     }
 
